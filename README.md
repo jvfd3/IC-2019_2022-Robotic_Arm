@@ -1,5 +1,5 @@
 # IC-2019_2022-Robotic_Arm
-This repository will contain all of my files regarding my years as a scientific initiation scholarship holder.
+This repository will contain all of my files regarding [my](http://lattes.cnpq.br/2335804614447803) years as a scientific initiation scholarship holder.
 
 I'd like to acknowledge the [CNPq](https://www.gov.br/cnpq/pt-br) and also the [PIBIC UENF](https://uenf.br/projetos/pibic/) for helping and colaborating financially with this research. And also to [Fermín Alfredo Tang Montané](http://lattes.cnpq.br/9974379145983363) my advisor throughout this research.
 
