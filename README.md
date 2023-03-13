@@ -7,3 +7,8 @@ I'd like to acknowledge the [CNPq](https://www.gov.br/cnpq/pt-br) and also the [
 I hope to be able to serve future "me's"
 
 ![Image](https://i.imgur.com/KNVbUdR.png "ME//YOU") <!-- ![Image](/home/gps/Pictures/test.png "a title") -->
+
+
+[Example of forward kinematics][LinkKinematic].
+
+[LinkKinematic]: https://www.alanzucconi.com/2017/04/06/implementing-forward-kinematics/
