@@ -1,0 +1,11 @@
+http://mundoprojetado.com.br/modulo-bluetooth-criando-aplicativo-parte-2/
+
+http://ai2.appinventor.mit.edu/reference/components/connectivity.html#BluetoothClient
+
+http://ai2.appinventor.mit.edu/reference/components/experimental.html
+
+http://ai2.appinventor.mit.edu/reference/components/
+
+https://www.youtube.com/watch?v=ieAoZxwCmAA
+
+Serial peek: https://www.youtube.com/watch?v=ts81ZTdY_DQ

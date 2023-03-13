@@ -1,0 +1,173 @@
+ip mega dias: 10.0.0.109
+ip rede dias: 192.168.0.105
+porta 8081
+
+npm install 
+npm install --save react-native-bluetooth-serial-next
+npm i --save react-native-bluetooth-classic
+npm i --save @react-native-community/slider 
+npm i --save react-native-base64
+npm i base64-js
+
+npm install --save base64
+
+(checar comandos, mas é por aí mesmo)
+
+import BTClassic from 'react-native-bluetooth-classic';
+// import BluetoothSerial from 'react-native-bluetooth-serial-next';
+import Slider from '@react-native-community/slider';
+import base64 from 'react-native-base64';
+import React, { useEffect } from 'react'
+
+mudar a requisição de imagem para
+"try *obter imagem* catch *texto sobre img*"
+
+https://dev.to/iacopo87/react-native-how-to-change-the-default-folder-structure-47lf
+
+para a estrutura
+
+Nome do app
+|-android
+|-ios
+|-App
+||-MiscJV
+||-App.js
+||-index.js
+|-node_modules
+|-otherfiles.ext
+|-app.json
+|-index.js
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+siga esse tutorial:
+https://www.reactnative.guide/5-project-structure-and-start-building-some-app/5.1-customising-the-structure.html
+Ele explica mal. Vamos lá:
+
+###Estrutura inicial
+
+root_app_folder_name
+|-android
+|-ios
+|-node_modules
+|-otherfiles.ext
+|-app.json
+|-App.js
+|-index.js
+|-package-lock.json
+|-package.json
+
+
+####Estrutura inicial relevante
+
+root_app_folder_name
+|-index.js
+
+
+####Estrutura final
+
+root_app_folder_name
+|-android
+|-ios
+|-node_modules
+|-App			(criado)
+||-index.js		(criado)
+|-App.js		(apagado)
+|-index.js		(editado)
+|-package.json		
+|-package-lock.json
+|-app.json
+|-otherfiles.ext
+
+
+Estrutura final relevante
+
+root_app_folder_name
+|-custom_app_folder_name	(criado)
+||-new_index_file_name.js	(criado)
+|-App.js			(apagado)
+|-index.js			(editado)
+
+#####################	index.js 
+		- ANTES
+/**
+ * @format
+ */
+
+import {AppRegistry} from 'react-native';
+import App from './App';
+import {name as appName} from './app.json';
+
+AppRegistry.registerComponent(appName, () => App);
+
+
+		- DEPOIS
+
+import {AppRegistry} from 'react-native'
+import qualquer_nome from './custom_app_folder_name/new_index_file_name'
+AppRegistry.registerComponent('root_app_folder_name', () => qualquer_nome)
+export default qualquer_nome
+
+
+#####################	./custom_app_folder_name/index.js 
+		- ANTES
+		- DEPOIS
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+
+function root_app_folder_name () {
+  return (
+    <View style={styles.container}>
+      <Text>IN</Text>
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+})
+
+export default root_app_folder_name
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+na parte:
+If you run the code now in iOS simulator, you should see
+
+vai dar erro.
+
+Então faça isso:
+https://pretagteam.com/question/failure-to-call-appregistryregistercomponent
+
+
+para debugar sem cabo:
+https://blog.getty.io/debugando-react-native-no-android-via-wi-fi-cedce242c375
+(o autor esqueceu de dizer em que momento vc deve desconectar o cabo. Boa sorte)
+
+PORTA: 8081 
+
+
+If you're using the latest version of Java Development Kit, you'll need to change the Gradle version of your project so it can recognize the JDK. You can do that by going to {project root folder}\android\gradle\wrapper\gradle-wrapper.properties and changing the distributionUrl value to upgrade the Gradle version. You can check out here the lastest releases of Gradle.	
+
+instalando sem android studio
+https://medium.com/skyshidigital/install-react-native-without-android-studio-366317419e7e
+
+erro na etapa:
+/opt/android/tools/bin/sdkmanager "platforms;android-23" "build-tools;23.0.1" "add-ons;addon-google_apis-google-23"
+
+solução:
+https://stackoverflow.com/questions/65262340/cmdline-tools-could-not-determine-sdk-root/65262939#65262939v
+
+na parte do adb:
+https://reactnative.dev/docs/running-on-device
+resolver assim:
+https://stackoverflow.com/questions/8744758/adb-is-not-recognized-as-internal-or-external-command-on-windows

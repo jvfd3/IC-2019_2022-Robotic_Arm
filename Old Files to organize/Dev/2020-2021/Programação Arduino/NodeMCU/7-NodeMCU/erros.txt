@@ -1,0 +1,8 @@
+192
+numero de chars
+0
+0
+255-numero de chars
+192
+
+pq?!

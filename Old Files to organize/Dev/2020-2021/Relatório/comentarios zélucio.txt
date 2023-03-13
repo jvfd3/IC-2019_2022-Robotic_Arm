@@ -1,0 +1,30 @@
+1) fez em latex?
+1.1) considerar a página 1 sem considerar o título?
+1.2) Não tem índice?
+2) pag 2, introdução, paragrafo 1: para para->para
+3) pag 2, introdução, paragrafo 1: na atualidade. Atualmente-
+4) pag 2, introdução, paragrafo 1: O que são esses códigos?[SRS20], [She20].
+5) pag 2, introducao, paragrafo 1: como fez para linkar os códigos à fonte?
+6) pag 2: objetivos: se retratar ao projeto no passado?
+7) pag 3: metodologias, pesquisas e minicursos: como vc pesquisou e filtrou os documentos?
+8) pag 4: metodologias: vc não fala o que fez, apenas como fez. que isso?! Minha vida é uma mentira
+9) pag 5: 5.2.1: atribuí-> atribui
+10) pag 5: 5.2.1: como fez o link para a imagem?
+11) pag 5: 5.2.3: DESCUBRA QUEM É VOCÊ NO CLUBE DO BOLINHA: NÃO TANKEI.
+12) pag 6: 5.2: as apresentações dos apps não está muito superficial?
+13) pag 7: 5.2.4: VARIÁVEL SENHAZADA: NÃO TANKEI²
+14) pag 7: 5.2.5: percebesse-> percebe-se
+15) pag 8: 5.4.1: como "para a realização do resudo do confict"? não é pra fazer um resumo do relatório?
+16) pag 12: 5.4.4: DDoS: usando vários. -> usando vários... oq?
+17) pag 13: 6: paragrafo 2: renovaçaõ -> renovação
+18) pag 13: 7: paragrafo 1: "Como"-> "	Como"
+19) pag 13: 8: Revisar a indentação. 
+20) pag 13: 8: De que forma os apps são participações em eventos?
+21) pag 13: 8: O Resumo n é basicamente o relatório? osh, como funcionou isso?
+22) pag 13: Referências: Me explica como foi feita as referências
+22.1) que código é esse?
+22.2) como foi colocado esse código na frente?
+23) pag 13: DDW16: "programmers : an app-driven" -> "programmers: an app-driven"
+
+
+

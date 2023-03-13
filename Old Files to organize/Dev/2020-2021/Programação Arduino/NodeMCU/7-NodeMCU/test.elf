@@ -1,0 +1,13 @@
+>>>stack>>>
+
+ctx: cont
+sp: 3ffffda0 end: 3fffffc0 offset: 01a0
+3fffff40:  3ffee318 0000c310 3ffee30c 4020224c  
+3fffff50:  00000000 3fffbff4 3ffee458 40201160  
+3fffff60:  402018f4 3ffee394 3ffe861e 3ffee3fc  
+3fffff70:  3ffee318 3ffee394 3ffee30c 3ffee3fc  
+3fffff80:  3ffee318 3ffee394 3ffee318 40201a63  
+3fffff90:  3fffdad0 3ffee394 3ffee30c 402010eb  
+3fffffa0:  3fffdad0 00000000 3ffee3bc 40202530  
+3fffffb0:  feefeffe feefeffe 3ffe84e0 401011d9  
+<<<stack<<<

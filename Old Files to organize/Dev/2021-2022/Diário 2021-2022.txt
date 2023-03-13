@@ -1,0 +1,239 @@
+	14 - 
+Hoje foi meu primeiro dia do letras, então só fiz 2h
+
+separei os módulos principais do app:
+	toggle de tecnologia
+	input
+	slider (na vdd tá sendo um Text para debug)
+
+toggle já tá funcionando, mas a parte de endereço tá meio bugada.
+
+Amanhã preciso dar uma olhada com mais carinho nisso
+
+
+
+
+
+	13 - Correções arduino
+vou passar a colocar títulos nos meus dias. Na verdade, colocar título no dia anterior, pq aí o dia já tá concluído e eu vou saber exatamente do que foi feito nele.
+
+fiz o arquivo: 12.7_UDP-Reception-and-String-separation
+
+agora o arduino recebe bonitinho e printa os valores separados.
+
+corrigi um "erro" que eu não havia percebido:
+no código antigo do arduino, quando eu printava os valores formatadinhos para que o plotter serial os mostrasse, na verdade ele estava configurado errado.
+
+ao invés de "LED1 11 LED2 22 ..."
+deve ser    "LED1:11 LED2:22 ..."
+
+Dessa forma cada led terá sua cor única. Antes ficava uma coisa estranha no plotter. Ficava tipo:
+*cor* led1 *cor* *cor* led 2 *cor* ...
+agora fica:
+*cor* led1 *cor* led2
+
+Agora vou para o app para fazer aquilo que comentei ontem.
+
+Vou tentar fazer um switch que alterne o app entre bluetooth e wifi
+
+Não vai haver mudança de tela, mas vai haver mudança de funcionalidade.
+
+Mas antes de fazer o switch, vou tentar padronizar a modularização do wifi
+
+
+
+	12 - Envio para o arduino
+Ontem apenas consegui dar uma semi-modularizada.
+Vou tentar concluir hoje o que pretendia ontem.
+
+Ontem eu perdi o ritmo pq tive que tirar sangue de manhã e de tarde ir a campos para o "exame admissional" do letras.
+
+Anteontem eu fui no fisioterapeuta. O que também me quebrou
+
+Mas enfim, vamos ao desenvolvimento
+
+CONSEGUI!
+MAIS UM LANDMARK
+MAIS UM CHECKPOINT
+
+consegui enviar legal do app pro arduino os valores via UDP
+
+configurei os inputs de texto para definir o ip e porta
+e enviei pelos sliders
+
+para amanhã fica:
+
+organizar o app:
+	filtrar no arduino os valores recebidos e segmentar entre os diferentes servos a serem movimentados.
+	Muita coisa bagunçada. Separar as coisas de forma devida, decidir onde vai ficar a função de envio do sliders
+	Definir uma alternância entre Bluetooth e wifi num mesmo app
+
+	11
+Hoje pretendo:
+
+modularizar o input de ip e porta
+esse módulo retornar um objeto js
+esse objeto estar no global e ser usado na função de envio do slider
+
+
+	10
+Hoje acabei não começando a fazer o ic de manhã, estou desmotivado hoje.
+Acho que vou fazer menos tempo hoje.
+
+Estou conseguindo enviar os pacotes do app para o arduino (detalhe: quando eu falar arduino, na verdade me refiro ao nodemcu, porém é mais vocal falar arduino).
+
+eu consegui separar as funções de wifi para um arquivo específico de funções.
+Agora para enviar os dados, apenas preciso de uma função vazia que "carrega" as outras funções do arquivo de funções (o arquivo tem funções que são executadas assim que o app carrega, ou pelo menos assim deveria ocorrer, porém o app parece que só lê e executa essas informações quando alguma função é necessária. Por isso criei uma função vazia que é chamada apenas para que o app carregue as outras funções).
+
+apenas a função send_udp(msg) já envia a string e é recebida pelo arduino.
+
+o ip e porta definidos no app para envio, são os endereços diretos do arduino.
+
+por algum motivo, os pacotes enviados pelo arduino são lidos pelo wireshark
+
+os que são enviados pelo UDP SENDER AND RECEIVER também são. Porém nem o UDP SR nem o wireshark identificam os pacotes do app.
+
+Como avanço para amanhã ou hoje, pretendo fazer dois inputs de texto para inserir endereços de ip e portas para as quais uma mensagem será enviada
+
+
+Consegui fazer o custom sender. Agora consigo colocar em text inputs o ip e porta para qual quero enviar pacotes.
+
+os pacotes foram lidos pelo wireshark e o UDP SR TAMBÉM
+
+
+	09
+Ontem consegui enviar e receber pacotes pelo UDP. SÓ ALEGRIA SÓ SUCESSO.
+
+Hoje vou dar uma ajeitada nas funções do app para poder enviar bonitinho. Separar as funções em módulos, preparar o arduino para enviar e receber. Descobrir como receber pelo celular também
+	08
+
+Ontem eu me embananei com o envio UDP
+Ontem estava tentando enviar via app alguns pacotes pelo UDP para o server python (?)
+Agora vou tentar mexer com isso direto no eps8266
+Tô seguindo esse vídeo:
+https://www.youtube.com/watch?v=hbOp3Im5K8o
+
+Não sei se vou ter que mexer com o AT-mode da plaquinha. Eu não gostaria de ter que mexer nisso.
+
+Instalei o wireshark para ver os pacotes da rede e também npcap1.60
+
+Fiquei com vontade de testar e analisar o envio e recebimento de pacotes bluetooth com meu notebook. Depois que eu conseguir resolver a parte do wifi, eu volto nisso
+
+estou usando https://www.microsoft.com/pt-br/p/udp-sender-reciever/9nblggh52bt0?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab
+para enviar dados
+
+filtro do wireshark
+https://www.youtube.com/watch?v=68t07-KOH9Y
+
+
+	06
+Estou lendo a documentação do esp8266 para entender desde a base.
+https://arduino-esp8266.readthedocs.io/en/latest/index.html
+
+Algumas alternativas interessantes que a documentação me mostrou são:
+
+Access Point
+Station
+Client Class
+
+entretanto, o que me pareceu mais simples e próximo do que quero é o
+
+UDP
+
+que lida de forma mais simples com o envio e recebimento de pacotes de dados.
+
+Fica para amanhã: pesquisar de que forma enviar esses pacotes pelo app
+	05
+Estou muito desanimado mexendo com o WIFI. Toda a manipulação de HTML, script, código, redirecionamento, tem sido muito desmotivadora.
+
+Vou me basear no que foi feito ano passado
+	04
+Ontem eu dei uma organizada em quais são de fato as metas e objetivos do plano de trabalho atual
+Hoje eu corrigi o slider que ficava voltando pra posição inicial e dei uma boa otimizada na forma como ele é criado:
+-várias informações passaram para dentro do próprio componente SliderJV ao invés de estarem externos no Sliders.
+-consegui criar os componentes em uma função com loop, assim posso dizer quantos sliders eu quero.
+-dei uma filtrada no que é recebido pelo arduino
+
+Acho que, mesmo já tendo disso isso antes algumas vezes, vou tentar seguir para o wifi amanhã com o "minimal viable product"
+	02
+
+Fui aceito para estágio no Letras.mus
+Vou parar de "brincar com sidequests do projeto" e focar no principal
+
+
+	30, 31, 01
+	
+tive covid.
+
+
+
+	29
+
+Consegui fazer com que a lista já apareça caso o bluetooh já esteja conectado.
+falta fazer com que apenas mostre os dispositivos realmente disponíveis
+estou também pesquisando sobre permissões para que o app não peça permissões constantemente
+quero corrigir o warning:
+WARNING:: The specified Android SDK Build Tools version (28.0.3) is ignored, as it is below the minimum supported version (30.0.2) for Android Gradle Plugin 4.2.2.
+Android SDK Build Tools 30.0.2 
+will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.3'" 
+from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+ver isso amanhã: 
+https://github.com/zoontek/react-native-permissions
+
+
+
+
+
+	28
+Tá tudo funcionando bonitinho
+dei uma compactada no arquivo de estilos
+simplifiquei as variáveis necessárias para a execução dos componentes, mantendo as variáveis não necessárias globalmente dentro de cada componente.
+Agora quando o bluetooth conecta aparece a lista de dispositivos e quando um dispositivo é conectado, aparece a lista de sliders
+ainda preciso resolver um bug que mantém os sliders visíveis quando eu desligo o bluetooth direto.
+
+
+    OK  CONFERE OS NÍVEIS DE INDENTAÇÃO E COR COM O GET_CONTAINER:
+    OK  LIST OF DEVICES DENTRO DE DEVICES
+    OK  SLIDERSJV DENTRO DE SLIDER
+
+    OK CONFERE TAMBÉM O FLEX QUE FAZ COM QUE O DEVICES SE EXPANDA ATÉ O FINAL
+
+para amanhã:
+
+
+    CONSIGA FAZER COM QUE, CASO O BLUETOOTH JÁ ESTEJA LIGADO, O USUÁRIO NÃO PRECISE
+    CLICAR NO SWITCH PARA QUE A LISTA DE DISPOSITIVOS APAREÇA
+    TALVEZ COM UM USEEFFECT NO TOGGLE
+
+    TESTA O DEVICES COM MAIS COMPONENTES. SE NECESSÁRIO, USE UM SCROLLVIEW 
+
+    SE DER TEMPO, SALVA OS ARQUIVOS E SEGUE PRO WIFI
+
+
+
+	24
+Consegui tornar o erro de falha do path de imagens mais fácil de corrigir
+
+modularizei a lista de dispositivos bluetooth
+modularizei os sliders
+modularizei os estilos
+
+
+	17
+Corrigi o erro de importação das URIs das imagens para o arquivo btlist.
+O problema era que eu estava fazendo
+
+import Image from 'react-native'
+
+mas deveria ser:
+
+import {Image} from 'react-native'
+
+vou fazer a solução temporária do bluetooth
+
+
+		Janeiro
+
+			2022

@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM6",
+    "sketch": "0.1-Testes\\teste_MAP\\teste_MAP.ino"
+}

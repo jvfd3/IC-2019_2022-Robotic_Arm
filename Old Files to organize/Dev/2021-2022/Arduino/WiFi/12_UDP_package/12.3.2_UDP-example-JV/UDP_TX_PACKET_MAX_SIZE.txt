@@ -1,0 +1,3 @@
+quantidade de characteres máximos para um pacote udp?
+
+UDP_TX_PACKET_MAX_SIZE = 8192

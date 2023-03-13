@@ -1,0 +1,6 @@
+
+readBytes()
+readBytesUntil()
+readString()
+readStringUntil()
+

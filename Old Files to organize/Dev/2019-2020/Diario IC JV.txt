@@ -1,0 +1,345 @@
+SEMANA 1
+
+9/10/19 - Quarta - 12h20-14h20
+Primeiro contato com o IC. Antes de começar a estudar mais sobre o projeto, decidi que iria primeiro me familiarizar com a máquina que usarei.
+Esse computador está lento, o que não é normal segundo tang. Minha teoria é que pode ser driver desatualizado, então estou tentando instalar o Driver Booster para verificar.
+Haviam 9 Drivers desatualizados, 3 controladores de som, 4 monitores, 1 adaptador de rede e 1 controlador usb, mas não acho que isso não vai afetar diretamente o bom desempenho do computador tanto quanto eu imaginava.
+Utilizei uma ferramente do driver booster para otimização, aparentemente isso reduziu o consumo de disco que estava afetando o bom desempenho do computador. O consumo reduziu de 100% para 50%, o que já resultou em uma mudança significativa no desempenho.
+O windows defender acusou alguma possivel ameaça, então aproveitei pra escanear em busca de virus.
+Quanto mais tempo passa escaneando possíveis ameaças, mais o "tempo restante estimado aumenta", isso tá demorando bem mais do que o estimado inicialmente. Terminou, não encontrou virus algum.
+
+10/10/19 - Quinta - 12h10-14h04
+Tang conseguiu consertar a lentidão do computador que ocorria devido ao aquecimento interno do computador causado por uma ventoinha invertida e também devido a uma memória RAM 2 2Gb que não estava devidamente conectada.
+Limpei o mousepad que estava deslizando devido a poeira.
+Instalei adblock no Chrome.
+
+Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano1.pdf".
+{
+Plataformas para demonstração visual da configuração do projeto:
+Fritzing>Virtual BreadBoard
+
+Perguntar sobre "o projeto de controle de lâmpadas através da web, que foi de fato implementado"
+	Pedir o código, circuito e demonstração.
+
+"humidade" -> Umidade
+
+A placa Arduino Uno é composta por um microcontrolador Atmel de 16 Mhz,
+14 portas digitais
+6 portas analógicas
+pode ser alimentada com tensões entre 7 e 12V,
+mas somente é capaz de fornecer tensões de até 5V
+corrente máxima de 40mA.
+
+
+Utilizar o Tópico 4.1, 4.2 no meu relatório alterando/aprimorando o que parecer ideal:
+ex:
+4.1)
+"utilizando uma linguagem baseada em C/C++, sem a necessidade de equipamentos
+extras além de um cabo USB." Cabo Usb-"nome da outra entrada".
+
+4.2)
+Manter a imagem do objeto, mas também incluir como é a sua representação no software visual.
+
+"Marrão"-> Marrom
+
+"através de um par de módulos tipo Joystick. No entanto, devido ao pouco tempo hábil para implementar o controle do braço robô através da internet, trabalhou se em um terceiro projeto, criado por outra aluna de IC, que consistia em um"-> esclarecer que n havia tempo para concluir o projeto com internet, porque fora isso, não faria sentido não se ter tempo pra um e fazer outro.
+
+"em um terceiro projeto, criado por outra aluna de IC" ->pode usar abreviações?
+
+"componentes utilizadas" -> utilizados.
+
+PAREI A LEITURA NO 5.2
+}
+
+
+SEMANA 2
+
+14/10/19 - Segunda - 13h07 
+
+
+Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano1.pdf".
+
+Começando em 5.2{
+
+Fim do parágrafo 1/início do parágrafo 2: repetição de "devido".
+
+Voltar na página 16 para conferir novamente a programação utilizada.
+
+
+5.3 (Pág 18):  Foco na parte de conectividade de internet
+O microSD utilizado para guardar informações de um servidor suporta até quantos Gb?
+
+Corrigir consistência do uso da palavra relê/relé.
+
+}
+
+
+
+Conclusão da Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano1.pdf":
+
+Me organizar bem para a execução do projeto para evitar trabalhos repetitivos desnecessários.
+Utilizar como base para a programação da automação residencial para fazer testes de conectividade com a ethernet shield com algum circuito básico. 
+https://www.filipeflop.com/blog/automacao-residencial-com-arduino-acenda-lampadas-pela-internet/
+Analisar a necessidade do SD na ethernet
+Agregar a programação do braço robótico com a automação residencial
+
+analisar o possível uso do php para envio e recebimento de informações para os controles.
+
+Testar conexão via internet de um controle físico e para um controle virtual
+
+
+
+14h08 Início da Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano2.pdf":
+{
+
+3 (pág 3): "plano anterior, se deverá trabalhar" ->"Se deverá"?
+
+Pesquisar sobre nodeMCU ( usa o ESP8266 ESP-12, funciona como se fosse arduino, pode usar linguagem LUA
+Pesquisar sobre ESP8266-01
+Pesquisar sobre ESP8266 ESP01 (aparentemente serve para conectar no wifi ou para servir de ponto de acesso ao wifi)
+
+5 (Pág 10): "denominado Plata IoT consiste"-> denominado Planta IoT consiste
+
+ThingSpeak
+
+pág: 14 "caso seja necessário se envie uma mensagem de alerta via Twiter" -> enviar
+
+Reanalizar os códigos do ThingSpeak e NodeMCU
+
+Página 18: Trocar a imagem do ThingSpeak
+
+Página 21: falta o código da ativação da válvula solenoide, justo o que eu queria que era a junção dos dois programas citados acima.
+
+Pesquisar sobre Raspberry Pi3 B+
+
+
+}
+
+15h40 Fim da Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano2.pdf":
+
+
+16/10/19 - QUARTA - 10h-11h  13h50-14h30
+
+Início da Leitura do arquivo "Relatório Anual IC_Isabela Correia_Ano3.pdf":
+{
+
+Pontos a cumprir:
+
+a) Estudo da Plataforma Raspberry Pi. Configuração da plataforma. Execução de projetos simples para familiarização com a plataforma. Documentação do estudo e dos projetos executados.
+A) Aparentemente feito pela isabela.
+
+b) Estudo sobre formas de integração entre as plataformas Arduino, NodeMCU e Raspberry PI . Pesquisa sobre projetos de integração e documentação do estudo.
+B) Pesquisar sobre
+
+c) Estudo sobre controle aprimorado de motores e servomotores. Introdução das melhorias nos projetos do braço robótico e da Planta IoT. Documentação.
+C) controlar melhor motor e servo motor.
+
+d) Estudo sobre formas otimizadas de alimentação de energia para projetos com motores e servomotores. Introdução das melhorias nos projetos do braço robótico e da Planta IoT. Documentação.
+D)Alimentar melhor os projetos.
+
+e) Pesquisa sobre interfaces de controle para plataformas microcontroladas. Documentação.
+E)Pesquisa para interface de controle para os projetos
+
+f) Desenvolvimento das interfaces de controle nos projetos do braço robótico e da Planta IoT.
+F)implementação
+
+g) Realização de experimentos de avaliação e desempenho dos dispositivos. 
+G) Experimentos
+
+h) Elaboração de relatório técnico.
+H)relatório.
+
+
+NA PRÁTICA:	Projetos: braço robótico e irrigação.
+
+1) Pesquisar alguma forma de integrar NodeMCU, ArduinoUNO e RapsberryPI (e documentar a pesquisa).
+2) Estudar e aprimorar o controle (motor e servomotor) dos projetos
+3) Estudar e aprimorar a alimentação dos projetos
+4) Pesquisar e desenvolver a interface de controle dos projetos
+5) Avaliar o desempenho dos dispositivos.
+6) Fazer relatório.
+}
+
+montagem de arduino para testar switch on/off
+
+
+17/10/19 - quinta - 10h-12h e 13h-14h30
+circuito não feito:
+Continuação da montagem do circuito para familiarização com as peças.
+Circuito com 4 leds representando os 4 quadrantes piscando do 1 ao 4.
+tentativa de introdução do potenciometro ao inves dos joysticks.
+
+Consegui.
+Um Potenciometro controla o Eixo X, o outro controla o Eixo y, assim escolhendo qual quadrante será aceso.
+
+
+
+SEMANA 3 
+22/10/19 - Segunda - 13h-15h
+
+Reinicializalção do PC para atualização do Windows, durou todo o período de tempo e mais um pouco.
+Enquanto isso, achei os dois Joysticks que procurava com tang.
+substituí um deles pelos 2 potenciômetros e funcionou perfeitamente: a medida em que eu manipulava a posição do joystick, os leds acendiam nos diferentes quadrantes.
+
+
+
+23/10/19 - Terça - 10h45-12h
+
+Aparentemente cada Joystick tem um erro padrão em que ele em seu estado neutro tem maior tendência de estar virado para um quadrante.
+tentando usar a função map para ligar analogicamente os leds
+
+13h14h
+
+trabalhando na função map para variar a intensidade dos leds.
+
+intensidade de led inconclusiva
+
+
+SEMANA 4
+
+
+
+29/10/19 - Terça - 9h30-12h e 13h-16h
+
+Percebi que a minha aproximação usando leds estava sendo lenta demais e não tinha muita relação com o que eu pretendia fazer. Deveria estar testando utilizando motores de passo. Porém, o uso de leds ajudou na familiarização com a função map, que será de grande ajuda na conversão de valores.
+
+Teste com servo foi um sucesso, realmente muito mais prático e direto do que a abordagem com leds.
+
+
+Começarei os testes com o HC-05.
+https://www.youtube.com/watch?v=OhnxU8xALtg
+
+Consegui ligar um led utilizando alguns controles remotos já existentes na playstore
+progredindo no led.
+saindo 15h48
+
+31/10/19 - Quinta - 13h-14h
+
+Consegui fazer um controle gradativo com um app bluetooth.
+agora o led é ligado com a devida intensidade de acordo com o valor colocado no dimmer.
+agora é necessário converter isso para um servo, e fazer o aplicativo se conectar via bluetooth e ter: 4 dimmers (1 para cada servomotor do braço robótico) 
+ (colocar easter egg  (?))
+
+SEMANA 5
+
+7/11/19 - quinta - 13h-14h
+
+vídeo sobre app com conexão bluetooth pelo app inventor
+https://www.youtube.com/watch?v=gfOaMKVdj8I
+https://www.youtube.com/watch?v=blvkJBAcGY0
+http://sergiogracas.com/html5/flisol_2015/#43
+
+
+terminAR DE VER O VIDEO
+https://www.youtube.com/watch?v=4Ttcg2q84m0
+E FINALIZAR O PROJETO
+parece promissor
+logar na conta do google
+
+8/11/19 - sexta - 12h-13h
+instalei o aplicativo, consegui controlar o led, falta polir o aplicativo. incluir novos sliders, talvez colocar o aplicativo na horizontal para os sliders serem mais precisos, manter 4 sliders direcionados para cada um dos servomotores para serem controlados precisamente.
+A ideia inicial para diferenciar cada um dos sliders na forma de controle no arduino é manipulação de string. como por exemplo, cada slider retornar por exemplo:
+a120
+b90
+c12
+d97
+assim, eu sei que o a120 seria o motor1 na posição de 180 graus, o b90 seria o motor2 na posição 90, e assim em diante.
+
+SEMANA 6
+
+10/11/19 - domingo - ??
+Atualização do aplicativo para adicionar novos Sliders que controlarão os 4 servomotores
+
+12/11/19 - terça - 10h-12h e 13h-14h10
+mudança da ideia inicial de a120,b90, etc. passou a ser
+1120
+2090
+3012
+4097
+por ser tudo int e poder ser mais facilmente manipulável do que uma string.
+estou tendo problemas para enviar o int com mais do que 1 byte (mais que 255), para o arduino, estou fazendo testes com as variáveis.
+
+13h-14h10
+a tela do pc não estava ligando, troquei a tela com o monitor usado por gabriela, funcionou no pc dela. troquei o cabo, funcionou com o pc dela, tirei as memórias ram, nenhum sinal de vida, só ligou a imagem quando eu tirei o cabo vga da saída da placa de video e conectei na placa mãe:
+no proximo dia: remover placa de video, recolocar a placa de video, plugar vga na placa mae, ver se funciona, se não aparecer imagem, colocar na placa de video
+
+13/11/19 - Quarta - 10h-11h e 12h-16h
+
+10h-11h:
+Consegui consertar o computador, aparentemente 
+
+estou criando um app para testar os tipos de dados enviados pelo appinventor2 e como eles se comportam na saída serial do arduino
+
+14/11/19 - Quinta - 11h-12h e 13h-14h
+
+11h-12h
+teste de app com diversas saídas de valores
+
+https://www.dummies.com/computers/pcs/taking-a-shortcut-in-arduino/
+
+ctrl+R: verificar
+ctrl+T: autoformatar
+ctrl+/: comentar
+ctrl+shift+m: Serial Monitor
+ctrl+U: compilar
+
+SEMANA 7 
+
+18/11/19 - Segunda - 13h - 14h50
+
+manipulação do código para aceitar os valores vindos do aplicativo de teste de diferentes formas diferentes.
+aprendizado do uso correto de string e a sua conversão para inteiro utilizando o comando .toInt(); que será necessário para o app.
+
+19/11/19 - terça - 10h - 11h
+
+preparatório do pré-relatório pedido pelo orientador
+
+Semana 9
+1/12/19 - Domingo - 15h30 - 23h59
+
+Progressão com o relatório
+
+2/12/19 - Segunda - 00h00 - 00h24
+Término do Pre-Relatório
+
+13h50 - 16h30
+
+Continuação do aplicativo para teste de variáveis.
+
+
+
+
+
+
+
+
+
+
+2020
+
+SEMANA 1
+
+3/3/20 - TERÇA FEIRA - 13h30 - 16h10
+
+Desenvolvimento da parte escrita do projeto
+
+
+4/3/20 - QUARTA - 13h10 - 13h50
+
+desenvolvimento do relatório 1p
+
+
+5/3/20 - QUINTA - 13h50 - ?
+
+Desenvolvimento do relatório 1p
+
+6/3/20 - SEXTA - 21h40 - 22h22
+
+Desenvolvimento do relatório xp
+
+22h55 - 2xh59
+
+23h31 - 00h14
+
+
+

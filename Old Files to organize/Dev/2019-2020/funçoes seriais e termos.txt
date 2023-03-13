@@ -1,0 +1,15 @@
+print: imprime o valor numérico.
+
+write: imprime o caractere da tabela AscII que o numero representa.
+
+casting: modelar o tipo de variável recebida.
+
+peek: Olha apenas o primeiro caractere
+
+flush: joga fora tudo que n for o primeiro caractere.
+
+parseInt: Caracteres iniciais que não são dígitos ou um sinal de menos, são ignorados;
+
+Serial.parseInt(char skipChar): Pula caracteres
+
+

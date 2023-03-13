@@ -1,0 +1,18 @@
+Bluetooth Pins on sensor shield
+
++ (only symbol)
+PINS:
+VCC (same voltagem from usb connector)
+GND
+DI
+DO
+GND
+3V3
+
+on HC-05
+X
+X
+X
+TX
+GND
++5V

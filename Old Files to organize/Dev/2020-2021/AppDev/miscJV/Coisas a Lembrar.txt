@@ -1,0 +1,12 @@
+npx install --save react-native-bluetooth-classic
+npx install --save react-native-bluetooth-next
+npx install --save base64
+npx install --save @react-native-community/slider 
+
+(checar comandos, mas é por aí mesmo)
+
+import BTClassic from 'react-native-bluetooth-classic';
+// import BluetoothSerial from 'react-native-bluetooth-serial-next';
+import Slider from '@react-native-community/slider';
+import base64 from 'react-native-base64';
+import React, { useEffect } from 'react'

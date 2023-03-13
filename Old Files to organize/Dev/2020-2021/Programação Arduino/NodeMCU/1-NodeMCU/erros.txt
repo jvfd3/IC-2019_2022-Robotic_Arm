@@ -1,0 +1,11 @@
+27/02/2021 - Início do bug do Bluetooth após testes do HC05 com o NODEMCU
+
+
+192
+numero de chars
+0
+0
+255-numero de chars
+192
+
+pq?!

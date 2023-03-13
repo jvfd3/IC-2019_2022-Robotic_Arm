@@ -1,0 +1,30 @@
+Output:
+1 Módulo Bluetooth HC-05
+2 Micro Servo Motor 9g Tower Pro
+5 Servo Motor MG996R Tower Pro
+Input:
+Usb Arduino
+DC Jack Arduino
+DC Jack Bateria 9V
+DC Jack servo shield (que não achei no laboratório)
+Carregador de celular (5,11 V/ 700mA)
+XXXXX
+
+1 Módulo Bluetooth HC-05
+V: 3.3/4 - 6 
+
+2 Micro Servo Motor 9g Tower Pro
+V:  3,0/4,8/5 – 6,0/7,2
+
+5 Servo Motor MG996R Tower Pro
+V: 3,0/4,8 - 6,0/7,2
+
+
+min= 3,3+5*3+2*3=3*(1,1+5+2)=3*8,1=
+min=24,3V
+
+full 6v: 8*6=48
+
+max=6+5*7,2+2*7,2=6+7,2*7=
+max=56,4V
+

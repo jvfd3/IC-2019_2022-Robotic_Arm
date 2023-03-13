@@ -1,0 +1,8 @@
+
+1) ler sobre como o dado é enviado na biblioteca bluetooth Serial next
+	https://github.com/nuttawutmalee/react-native-bluetooth-serial-next#multiple-devices-connection
+	Não parece ter nenhuma relação com o bug.
+2) testar outra biblioteca
+	Testado com o Bluetooth Serial Classic (classic Serial). O mesmo bug ocorre.
+	3) Tentar Enviar dados pelo HC05
+	4) Tentar receber dados via A0 e A1

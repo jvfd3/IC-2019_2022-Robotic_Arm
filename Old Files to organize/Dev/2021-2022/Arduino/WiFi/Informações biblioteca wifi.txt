@@ -1,0 +1,48 @@
+https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html
+
+
+Coisas que se pode fazer como station:
+https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/station-class.html
+
+todos com: WiFi.
+
+   conectar ao último: 	begin();
+   conectar:		begin(ssid, password)
+   configurar:		
+ reconectar
+desconectar
+conferir conexão	isConnected()
+
+setAutoReconnect
+
+
+https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/soft-access-point-examples.html
+
+a função de Access point me parece mais próxima do que eu quero do que a de station.
+Access point me parece permitir a conexão direta do smartphone ao dispositivo. Já o Station conecta o dispositivo ao roteador e gera um site.
+
+exemplo de ap com webserver
+
+
+Outro promissor é o client class
+https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/client-class.html
+
+UDP TAMBÉM É INTERESSANTE
+
+
+mode
+bool mode(WiFiMode_t m)
+Switches to one of the regular WiFi modes, where m is one of:
+
+WIFI_OFF: turn WiFi off.
+
+WIFI_STA: switch to Station (STA) mode.
+
+WIFI_AP: switch to Access Point (AP) mode.
+
+WIFI_AP_STA: enable both Station (STA) and Access Point (AP) mode.
+
+
+
+FUNÇÃO INTERESSANTE:
+WiFi.printDiag(Serial);

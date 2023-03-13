@@ -1,0 +1,9 @@
+https://github.com/expo/expo/issues/12774
+
+downgraded gradle-6.8.1-all.zip in gradle-wrapper.properties ..
+working good
+
+
+em>
+
+nome_do_app/android/gradle/wrapper/gradle-wrapper.properties

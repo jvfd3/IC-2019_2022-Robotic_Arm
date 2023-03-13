@@ -1,0 +1,3 @@
+Consegui receber dados via UDP diretamente do windows
+
+Vou limpar e entender esse código para avançar pra outra etapa

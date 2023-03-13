@@ -1,0 +1,55 @@
+
+"address": 	"00:21:13:02:C9:72",
+"class": 	7936,
+"id": 		"00:21:13:02:C9:72",
+"name": 	"HC-05"
+
+
+ble:
+https://github.com/Polidea/react-native-ble-plx
+
+homeled:
+https://github.com/SparingSoftware/HomeLed
+
+bluetooth serial
+https://github.com/rusel1989/react-native-bluetooth-serial
+
+https://reactnative.dev/docs/network
+
+curso do Guanabara.
+
+Tiago Marmitt
+Oi, eu consegui após dias de pesquisa
+
+Luis Gomes Rocha
+@Tiago Marmitt cara se der aula particular estou aceitando. Tem insta? @lytruns
+
+Tiago Marmitt
+@Luis Gomes Rocha gmtlme2 meu user
+
+Tiago Marmitt
+@Gustavo Mantini se estiver usando Arduino ou outros dispositivos de baixa energia você deverá usar a biblioteca react-native-bluetooth-classic.
+Ao ler a documentação da biblioteca mencionada você notará que existem uma diversidade de funções, .list() .connect() etc, para usar cada uma dessas funções basta coloca-las dentro de uma async function
+Exemplo: async function listarDevices(){const lista = await RBC.list()}. Obs: rbe é o nome do objeto que dei import na biblioteca
+
+Gustavo Mantini
+@Tiago Marmitt Sensacional Tiago! Já meu deu uma direção incrível, obrigado de verdade. Pelo que andei pesquisando, não é possível utilizar o expo, apenas o cli para desenvolvimento com bluetooth, saberia se essa informação procede? Mais uma vez, obrigado.
+
+Tiago Marmitt
+@Gustavo Mantini correto, o expo ainda não tem suporte para bluetooth e provavelmente não terá, para utilizar a lib react-native-bluetooth-classic e outras, você deve dar eject em seu projeto, transformando-o em cli.
+(Procure por expo eject)
+
+Gustavo Mantini
+Opa Tiago! Sou eu novamente, estou tendo bastante dificuldades em utilizar a biblioteca, você teria algum programa de exemplo?
+
+Tiago Marmitt
+@Gustavo Mantini Olá, amanhã (06/10) vou upar um arquivo de exemplo no git e deixo o link aqui
+
+Tiago Marmitt
+@Gustavo Mantini https://github.com/marmittfull/ExemploBluetoothRN
+
+Gustavo Mantini
+@Tiago Marmitt Incrível Tiago, você me ajudou muito, realmente o projeto só vai dar continuidade como desejava por conta da sua ajuda, muito obrigado! Fico feliz em saber que existe pessoas generosas como você
+
+Tiago Marmitt
+@Gustavo Mantini De nada, pode comentar novamente caso precise de alguma outra informação

@@ -1,0 +1,10 @@
+npm install --save react-native-udp
+
+ARDUINO:	192.168.0.108
+	PORTA:	8888
+
+UDP SR:		192.168.0.107
+	PORTA:	7777
+
+APP:		192.168.0.101
+	PORTA: 	12345

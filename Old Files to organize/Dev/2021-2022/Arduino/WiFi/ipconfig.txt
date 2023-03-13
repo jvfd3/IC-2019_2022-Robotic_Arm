@@ -1,0 +1,30 @@
+C:\Users\joaov>ipconfig
+
+Configuração de IP do Windows
+
+
+Adaptador Ethernet Radmin VPN:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 . . . . . . . . . . : fdfd::1a1a:5f0
+   Endereço IPv6 de link local . . . . . . . . : fe80::99b8:1d6f:9ad9:89b4%7
+   Endereço IPv4. . . . . . . .  . . . . . . . : 26.26.5.240
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.0.0.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 26.0.0.1
+
+Adaptador Ethernet Ethernet:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::a8ce:3b60:285c:f96e%11
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.0.107
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 192.168.0.1
+
+Adaptador de túnel Teredo Tunneling Pseudo-Interface:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 . . . . . . . . . . : 2001:0:2877:7aa:14fe:17b7:36de:5f46
+   Endereço IPv6 de link local . . . . . . . . : fe80::14fe:17b7:36de:5f46%12
+   Gateway Padrão. . . . . . . . . . . . . . . :
+
+C:\Users\joaov>

@@ -1,0 +1,3 @@
+6 - No temp app fix and Arduino simple reception - Captura de tela 2022-02-07 082309
+7 - With temp app fix- Captura de tela 2022-02-07 082309
+8 - With temp app fix and Arduino filtering - Captura de tela 2022-02-07 082309

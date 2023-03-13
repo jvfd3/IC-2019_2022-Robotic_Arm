@@ -1,0 +1,207 @@
+1/3 do acervo do portal Periódico Capes é livre
+outra parte é do conteúdo assinado (disponível apenas para instituições que têm vínculo com o portal)
+
+Acesso CAFE ("cáfe")
+Verificar se minha instituição aparece na listagem do acesso cafe
+A instituição provê um login e senha para que eu possa ter acesso.
+O conteúdo disponível no cafe é igual, maior ou menor do que o conteúdo assinado?
+R: O conteúdo é igual. O cafe é apenas um login a mais para permitir que usemos o capes fora da instituição de ensino.
+
+https://cafe.uenf.br/idp/profile/SAML2/Redirect/SSO;jsessionid=F1B38DBB055D97CB0782FA642C7ADFD8?execution=e1s1
+
+BUscar sobre o login cafe da uenf
+
+Ler sobre perguntas frequentes
+Ler sobre a aba institucional (historico, missao e objetivos, etc)
+
+
+
+Todos os parceiros do portal fazem parte do acervo livre
+
+
+Buscar base
+o portal é um conglomerado de bases. Busca para encontrar bases de conteúdo.
+é uma pesquisa de base e não de conteúdo. Não se é direcionado a documentos
+-Buscar por título (busca pelo título da base)
+ex.: pesquisar "scopus"
+se tiver bandeira do brasil, certamente é um acervo brasileiro e certamente está em português
+-Buscar por área do conhecimento
+Separado em grande área e pequena área:
+ex.: Grande área: ciências exatas e da terra; Ciencia da computação
+Então fazendo a pesquisa por grande área e pequena área, os resultados serão as bases que têm conteúdos relacionados à pequena área?
+R: Sim.
+
+-busca avançada
+Junta os critérios de pesquisa das outras opções
+ações: pequeno dossiê sobre a base de dados
+
+Buscar livro
+"titulo ou isbn"
+
+
+ISBN: código do livro publicado (passaporte do livro. individualização do livro)
+Título: Não necessariamente precisa ser o título do livro. Mas sim um termo que possa estar no título 
+
+A busca por livros na plataforma do Periódicos Capes inclui apenas os conteúdos disponíveis no Periódicos, ou também inclui os dados disponíveis nas bases associadas?
+R: [Aparentemente] todo o conteúdo encontrado na capes inclui os conteúdos presentes nos acervos assinados.
+
+O ISBN é um código internacional?
+R: Sim. E é padronizado.
+
+Pesquisa por editores:
+pode pesquisar em qualquer idioma. Se a grafia estiver em algum arquivo, o arquivo será encontrado
+
+"pesquisar em inglês o conteúdo triplica, quadriplica."
+"O ingles é a língua da pesquisa, é a lingua da ciência"
+
+
+Pode-se pesquisar por radicais:
+a pesquisa dá sugestões de pesquisas a serem encontradas
+
+Dicas: misturem filtros. Utilizem radicais para poder obter sugestões de pesquisas. Mudar idiomas para abranger mais material.
+
+O que seria um editor?
+R: Basicamente são as fontes. são as Bases
+
+ISBN para livros
+ISSN para revistas científicas (periódicos)
+
+Buscar Periódico
+Os periódicos são revistas científicas.
+
+tem o filtro de área de conhecimento (grande área e pequena área)
+
+Revisão por pares:
+A revista detém profissionais dessa área que revisará os materiais antes da publicação. (símbolo de livro com olho em cima)
+Pares=profissionais da área e do mesmo patamar dos materiais que estão sendo enviados.
+revisão por pares dá mais credibilidade ao conteúdo
+
+Símbolo de cadeado aberto: está com acesso aberto e de permissão irrestrita.
+
+Em editores é possível pesquisar por periódicos nacionais
+
+Buscar assunto
+
+Mais abrangente.
+
+Dica: fazer login pelo "meu espaço"
+
+Conta cafe: permitir o acesso a mais conteúdos
+Conta meu espaço: login de organização de conteúdos.
+
+
+Ambas as contas podem ser usadas separadamente	
+
+Estraégias de pesquisa:
+
+Operadores lógicos: AND OR NOT (sempre em caixa alta)
+AND: restringe
+OR: amplia
+NOT: restringe
+Aspas: "" (pesquisa específica)
+Truncagem: ? *
+Coringas na pesquisa.
+Exemplo: 
+BRA?IL Uma lacuna que o portal completará
+BR??IL
+* é pesquisa de radical
+BRASIL* -> brasileiro, brasiliense, etc.
+
+Pode usar todas ao mesmo tempo
+
+Gerenciador de referências:
+Criar referências de forma automática.
+
+EndNote (pesquisar sobre. Deve ser algo sobre usar referencias)
+Tem como usar treinamento de base.
+Em DOcumentos têm cronogramas de treinamentos para as diversas bases de conteúdo.
+capes, clarivate, etc.
+Todas elas têm certificações.
+
+Pode-se entrar apenas no horário do ensino sobre a base.
+
+Os treinamentos em vermelho são mais específicos e especiais.	
+
+índice H (alto nível de...? citação?)
+Índice H é vinculado à plataforma Scopus
+
+OS documentos têm métricas que podem ser analisadas
+
+indexar=têm arquivos no acervo
+
+BUsca avançada:
+Pesquisas mais específicas
+
+
+
+MEu espaço:
+
+pode salvar toda a busca
+pode salvar todas as páginas
+POde adicionar alarme caso um novo artigo relacionado a busca surja
+
+Dá para criar filtros de base.
+
+
+
+https://conferenciaweb.rnp.br/
+
+
+
+
+
+
+
+
+
+
+thaysbdias@hotmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Duvidas: treinamento.periodicos@capes.gov.br
+
+Proxima TI
+Tecnologia da informação e serviços
+Brasilia, DF  13 seguidores
+Seguir
+Suelen Thays
+Visualizar todos os 3 funcionários
+
+Sobre nós
+Somos uma empresa de engenharia de software focada em soluções integradas de gestão pública e privada.
+
+Os nossos profissionais tem títulos de especialista ou mestrado. 
+
+Temos profissionais certificados em PMP, SCM, ITIL, Java e Zend.
+
+Nosso objetivo é simplificar seu trabalho e torná-lo mais produtivo.
+
+Site
+http://www.proximati.com.br

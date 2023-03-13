@@ -1,0 +1,6 @@
+06/02/2022:
+
+Está dando um problema onde, ao invés de gerar a rede com o nome e senha dados, ele gera um wifi: FaryLink_07D76F
+
+
+

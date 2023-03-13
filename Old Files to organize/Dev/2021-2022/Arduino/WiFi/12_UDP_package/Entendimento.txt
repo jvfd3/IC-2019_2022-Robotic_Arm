@@ -1,0 +1,46 @@
+Até agora, entendo que:
+
+o esp8266 se conecta a rede wifi no modo STA (station)
+se conecta com o nome e senha de alguma rede
+checa o status
+printa o ip local próprio
+que atualmente tem sido
+192.168.0.108
+
+o udp se inicializa em uma porta escolhida por mim:
+
+8888
+
+o ip do meu pc é:
+192.168.0.108
+
+o meu UDP - SENDER/RECEIVER tá enviando do ip do meu pc para o ip do dispositivo pela porta 8888
+
+mas acho que esse S/R só lê do ip do pc.
+
+
+o wire shark deve informar:
+
+UM PACOTE ENVIADO PELO UDP S/R:
+
+688.079068	237253	UDP	192.168.0.107	192.168.0.108	50	54958 → 8888 Len=8
+
+PACOTES ENVIADOS PELO ESP8266
+
+886.533710	241123	UDP	192.168.0.108	0.0.0.0	61	8888 → 256 Len=19
+
+
+
+
+No arquivo 12.5.2 UDP SENDER WITH Ip
+
+eu consigo definir para que um pacote seja enviado para um ip e porta especificos.
+
+Então o UDP do nodemcu tá conectado ao ip 192.168.0.108 na porta 8888 e está enviando para o ip 192.168.0.107 na porta 7777.
+Essa porta está sendo "ouvida" pelo udp sender receiver.
+
+
+Tentarei agora enviar também pelo Sender receiver
+
+
+CONSEGUI ENVIAR
