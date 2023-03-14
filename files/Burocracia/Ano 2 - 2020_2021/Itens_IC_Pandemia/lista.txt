@@ -1,0 +1,72 @@
+13/02/2021 - 13h09
+
+1x Cabo usb AB azul (Etiqueta: Cabo USB 12)
+1x Cabo usb (b 3.0)-Micro B longo
+1x zipbag com vários jumpers
+1x multímetro + caixinha protetora marrom (Etiqueta: Multímetro 2)
+
+1x Caixa de papelão mercado livre
+{
+	1x protoboard (02) 400 pontos
+	1x protoboard (03) 400 pontos
+	7x jumpers fêmea-fêmea (cores diversas juntas)
+	1x Cabo usb (b 1.0)-Micro B curto
+	1x cabo (9V)-(energia)
+	1x cabeça de carregador Samsung
+	1x plástico protetor {1x NodeMcu Ver 1.0} 
+	1x plástico protetor {2x joystick}
+	1x plástico protetor {1x arduino Sensor Shield v5.0}
+	1x NodeMCU v3 Lolin + caixinha protetora branca (Etiqueta: NodeMCU v3 Lolin)
+	1x NodeMCU v3 Amica + caixinha protetora branca (Etiqueta: NodeMCU v3 Amica)
+	1x Zipbag D-24-D Suporte Bateria 18650
+}
+
+1x Caixa de papelão FILIPEFLOP
+{
+	1x protoboard (Etiqueta: Protoboard 09) 400 pontos
+	1x protoboard 830 pontos
+	1x conjunto com vários jumpers verde macho-macho
+	1x Arduino UNO R3 (Etiqueta: Placa 12) + caixinha azul
+	1x adaptador "2 retos, 1 'circular'"-"3 pinos"
+	1x CP2102 Modules USB to TTL
+	1x Carregador Samsung 5.11V, 700mA
+	1x HC-05
+	1x chave de fenda
+	1x plástico protetor
+	2x servomotor
+
+	16x jumper macho macho
+	
+	1x zipbag	{ 1x servomotor}
+	1x zipbag	{ 1x servomotor,  1x minizipbag{ 2x parafusos, 3x ponteiras do servo } }
+	1x zipbag	{ 3x Mini Switch, 2x cabinhos }
+	1x zipbag	{ 1x minizipbag, {2x parafusos, 3x ponteiras do servo}, 1x minizipbag { 2x parafusos } }
+	1x smallzipbag 	{11x Resistor 330 Ohms (bege), 1/4W}
+	1x smallzipbag 	{17x Resistor 330 Ohms (azul), 1/4W}
+	
+	1x prendedor "de pão" branco
+	{
+		6x jumper macho macho longo,
+		6x jumper femea femea
+	}
+
+	1x prendedor "de pão" preto
+	{
+		7x jumper macho macho longo,
+		3x jumper femea femea
+	}
+
+	1x pote cilíndrico acrílico
+	{
+		2x LED verde
+		1x LED branco
+		1x LED amarelo
+		1x LED vermelho
+
+		4x 3.3 kOhms 5%	(bege) (laranja, laranja, vermelho, ouro) /OU/ 4x 330 Ohms 5% (bege) (laranja, laranja, marrom, ouro) 
+		1x 4.6 kOhms 5%	(bege)
+		2x 330  Ohms 1% (azul)
+	}	
+}
+
+

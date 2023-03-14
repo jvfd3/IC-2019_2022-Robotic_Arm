@@ -1,0 +1,26 @@
+INTRODUÇÃO:
+	falar sobre:
+		a história do IOT
+		O início das garras mecânicas
+		Quando e como o Wi-Fi foi desenvolvido
+			Seus pacotes
+		qual a necessidade do Bluetooth
+	[POR ENQUANTO ME PARECE BOM]
+
+ETAPAS DO PLANO:
+	averiguar
+
+OBJETIVO:
+	O objetivo principal é o de conseguir integrar a tecnologia Wi-Fi pesquisada no plano de trabalho anterior ao braço robótico de forma funcional, além disso, vê-se como positivo que seja feito uma melhoria na modularização do app, permitindo que suas alterações futuras se tornem mais fáceis.
+	[Falar sobre as não feitas? Hardware?]
+
+Metodologia:
+	Manteve-se o TDD. Reconfiguração do ambiente e criação de um documento tutorial para futuros bolsistas.
+	Testes de novas IDEs para o arduino: Arduino 2 e VSCode.
+	Desenvolvimento do app em React Native
+	Revisão dos códigos anteriores e comentários
+	Maturação da habilidade de programação = Revisão e aprimoramento: Melhor organização dos arquivos antigos do app
+	Estudo da documentação do ESP; Diferenças encontradas e pq UDP?
+	Desenvolvimento dos códigos
+	Testes do Wi-Fi
+	Últimos feitos: WiFi VS Bluetooth
