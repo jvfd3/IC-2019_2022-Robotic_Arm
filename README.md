@@ -6,8 +6,9 @@ I'd like to acknowledge the [CNPq](https://www.gov.br/cnpq/pt-br) and also the [
 
 I hope to be able to serve future "me's"
 
-![Image](https://i.imgur.com/KNVbUdR.png "ME//YOU") <!-- ![Image](/home/gps/Pictures/test.png "a title") -->
+![Avatars](https://i.imgur.com/KNVbUdR.png "ME//YOU") <!-- ![Image](/home/gps/Pictures/test.png "a title") -->
 
+![Mechanical Arm](<files/Burocracia/Ano 3 - 2021_2022/Braço Robótico.png>)
 
 [Example of forward kinematics][LinkKinematic].
 
